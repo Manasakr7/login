@@ -1,0 +1,48 @@
+
+<%@ include file="headfile.jsp"%>
+<%@ include file="connfile.jsp"%>
+
+<%
+try
+{
+rst = stmt.executeQuery("select * from reg");
+ }
+catch(Exception e)
+{
+System.out.println(e);
+}
+%>
+<html>
+    <head>
+        <title>delete registration</title>
+    </head>
+    <body>
+        <h1> <marquee style="color:blue">WELCOME TO DELETE PAGE</marquee></h1>
+        <form>
+      
+        </form>
+            <form action="delete2.jsp">
+                <table>
+                    
+                    <tr><td>Name:</td><td><input type="text" name="NameCode"></td></tr>        
+                    <tr><td></td><td><input type="submit" value="submit"></td><td>
+                            <%
+                                String NameCode= (String)request.getAttribute("NameCode");
+    if(NameCode==null)
+    { 
+    }
+    else
+    {
+        out.print(NameCode);
+    }
+                            %></td></tr>
+                    
+                    
+                </table>    
+            </form>
+       
+                    
+
+    </body>
+</html>
+
