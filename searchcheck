@@ -1,0 +1,13 @@
+<%@ include file="headfile.jsp"%>
+<%@ include file="connfile.jsp"%>
+<table>
+    <%
+    String t1=request.getParameter("text1");
+    rst=stmt.executeQuery("select * from reg where name='"+t1+"'");
+    while(rst.next())
+               {
+        out.print("<tr><td>"+rst.getString("Name")+"</td><td>"+rst.getString("Username")+"</td><td>"+rst.getString("Password")+"</td><td>"+rst.getString("Qualification")+"</td><td>"+rst.getString("Phonenumber")+"</td><tr>");
+               
+    }
+    %>
+</table>
