@@ -1,0 +1,35 @@
+<%-- 
+    Document   : index
+    Created on : Mar 1, 2019, 3:13:21 PM
+    Author     : Megha
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<%@ include file="headfile.jsp"%>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>JSP Page</title>
+    </head>
+    <body background="images/back2.bmp">
+        <BR><BR>
+    <center>
+        <table border="0" width="100%" align="center">
+               <tr><td width="40%" >
+        <h1>Welcome to our Site</h1>
+        <h1></h1>
+        <h4><a href="loginpage.jsp"> login </a></h4>
+        <h4><a href="registration.jsp"> registration </a></h4>
+        <h4><a href="display.jsp"> display </a></h4>
+        <h4><a href="search.jsp"> search </a></h4>
+        <h4><a href="delete1.jsp"> delete </a></h4> 
+        
+                </td>
+                <td width="60%" align="right"> <img src="images/mobileb.jpg"></td> </tr>
+        </table>
+    </center>
+    </body>
+</html>
