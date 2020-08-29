@@ -1,0 +1,21 @@
+
+<%@ include file="headfile.jsp"%>
+<%@ include file="connfile.jsp"%>
+
+<%
+		String t1=request.getParameter("NameCode");
+		
+		
+                int i=stmt.executeUpdate("delete  from reg where name='"+ t1 +"'");
+                if (i==1)
+                    
+                {out.println("Deleted Successfully");
+                response.sendRedirect("delete1.jsp");
+                 }
+                
+                
+                else
+                {out.println("name is not correct");
+                }
+
+%>
