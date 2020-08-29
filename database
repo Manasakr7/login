@@ -1,0 +1,19 @@
+mysql> use login;
+Database changed
+mysql> show tables;
++-----------------+
+| Tables_in_login |
++-----------------+
+| login1          |
+| reg             |
++-----------------+
+
+mysql> select * from reg;
++------------+----------+-------------+---------------+-------------+
+| Name       | Username | Password    | Qualification | Phonenumber |
++------------+----------+-------------+---------------+-------------+
+| megha      | meghi    | manumanasa  | be            | 456789      |
+| madhushree | madhu    | jalajakshi  | bca           | 234567      |
+| Manasa K R | manasa   | manasaram   | Bca           | 621         |
+| manohar    | manu     | meghamanasa | ba            | 845126522   |
++------------+----------+-------------+---------------+-------------+
