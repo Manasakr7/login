@@ -1,0 +1,20 @@
+<%-- 
+    Document   : headfile
+    Created on : Mar 1, 2019, 3:23:10 PM
+    Author     : Megha
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>WEB APPLICATIONS</title>
+    </head>
+    <body bgcolor="lightblue" background="images/back2.bmp" >
+        <img style="-webkit-user-select: none" src="images/Logo1.bmp">
+
+    </body>
+</html>
