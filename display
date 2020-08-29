@@ -1,0 +1,17 @@
+<%@ include file="headfile.jsp"%>
+<%@ include file="connfile.jsp"%>
+<form>
+<table>
+    
+    <%
+    rst=stmt.executeQuery("select * from reg order by name");
+    while(rst.next())
+               {
+               
+        out.print("<tr><td>"+rst.getString("Name")+"</td><td>"+rst.getString("Username")+"</td><td>"+rst.getString("Password")+"</td><td>"+rst.getString("Qualification")+"</td><td>"+rst.getString("Phonenumber")+"</td></tr>");
+          }
+    
+    %>
+        
+</table>
+</form>    
