@@ -1,0 +1,24 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+<%@ include file="headfile.jsp"%>
+
+<A href="index.jsp"> Home </A> <BR>
+<table border="0">
+<tr><td height ="100" width="25%"></td><td>
+
+        <form method="POST"    action="regsave.jsp">
+    <table border="0">
+    <tr> <td height="20" colspan="2"> <a href="regsave.jsp"><img style="-webkit-user-select: none" src="images\adminlogin.bmp"/></a> </td> </tr>
+    <tr> <td height="60" colspan="2"> </td> </tr>
+    <tr> <td height="40"> Name </td> <td> <input type="text" name="text1" value=""></td> </tr>
+    <tr> <td height="40"> User Name </td> <td> <input type="text" name="text2" value=""></td> </tr>
+    <tr> <td height="40"> Password </td> <td> <input type="password" name="text3" value=""></td> </tr>
+    <tr> <td height="40"> Qualification </td> <td> <input type="text" name="text4" value=""></td> </tr>
+    <tr> <td height="40"> Phone Number </td> <td> <input type="number" name="text5" value=""></td> </tr>
+    <tr> <td height="40">  </td> <td align="center"> <input type="submit" name="Login" value="save" ></td> </tr>
+    </table>
+        </form>
+</td><td width="25%"></td></tr>
+</table>
