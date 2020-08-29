@@ -1,0 +1,11 @@
+<%@ include file="headfile.jsp"%>
+<%@ include file="connfile.jsp"%>
+<%
+String t1=request.getParameter("text1");
+String t2=request.getParameter("text2");
+String t3=request.getParameter("text3");
+String t4=request.getParameter("text4");
+String t5=request.getParameter("text5");
+stmt.executeUpdate("insert into reg value('"+t1+"','"+t2+"','"+t3+"','"+t4+"','"+t5+"')");
+response.sendRedirect("index.jsp");
+%>
